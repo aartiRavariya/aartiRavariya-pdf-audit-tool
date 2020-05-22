@@ -1,0 +1,524 @@
+﻿
+  .droppable {
+    width: 650px;
+    height: 2000px;
+    background: lightgrey;
+    /* height: 334%; */
+    /* position: absolute; */
+    margin: 0 auto;
+    position: ;
+  }
+  
+  body{
+    background-image: url(../images/bgimage.jpg);
+    /* background-color: #8b8b8ead; */
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+    }
+    input[type=radio] {
+        border: 0px;
+        width: 10%;
+        height: 18px;
+    }
+p{
+ text-align: center;
+}
+.modal-dialog{
+    top:50%;
+    transform: translateY(-50%) !important;
+}
+.row2{
+    margin-top: 25px;
+}
+#myModal.fade.in{
+
+    opacity: 1 !important;
+    }
+    .left,.right{background: #000;}
+    .left video{ width: 100%    !important; height: 100vh   !important;}
+    .right video{ width: 100%    !important; height: 100vh   !important;}
+
+input[type=text], select , textarea{
+    width: 50%;
+    padding: 6px 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+
+    background-color: #9ca9b1;
+    color: #040404;
+    /* padding: 14px 20px;
+    margin: 8px 90px; */
+  padding: 10px 36px;
+    margin: 14px -10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div {
+  border-radius: 5px;
+  /* background: #FFF; */
+}
+
+.fixed-image {
+    width: 40%;
+    float: left;
+}
+div#details-from {
+    width: 60%;
+    float: right;
+}
+.fixed-image img {
+    width: 39%;
+    position: fixed;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+	margin-top: -10px;
+}
+div#details-from form h2 {
+    margin-top: 70px;
+}
+.cstm-btn{
+	font-family: 'Noto Sans',Helvetica,Arial,sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: transparent;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: normal;
+    color: black;
+    border: 2px solid black;
+	width: 75%;
+}
+#submit-openform, #submit-saveform, #submit-preheader, #submit-header, #submit-heading, #submit-image, #submit-firstblock, #submit-contentblock, #submit-bottomimg, #submit-bottomtext {
+    font-family: 'Noto Sans',Helvetica,Arial,sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px 5px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: transparent;
+    max-width: 100%;
+    margin: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: normal;
+    color: black;
+    border: 2px solid black;
+    width: 20%;
+}
+#emailcontent{
+	display:none;
+}
+
+.container {
+    max-width: 966px;
+    /* margin-top: 110px; */
+}
+   .row2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+   } 
+
+.cstmaddbut{
+	font-family: 'Noto Sans',Helvetica,Arial,sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 5px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: transparent;
+    max-width: 100%;
+   /*  margin: 10px 10px 10px 10px; */
+    text-transform: uppercase;
+    text-align: center;
+    white-space: normal;
+    color: black;
+    /* border: 2px solid black; */
+    width: 5%;
+	cursor:pointer
+}
+
+#download{
+	font-family: 'Noto Sans',Helvetica,Arial,sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px 5px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: transparent;
+    max-width: 100%;
+    margin: 10px 10px 10px 10px; 
+    text-transform: uppercase;
+    text-align: center;
+    white-space: normal;
+    color: black;
+    border: 2px solid black;
+    width: 25%;
+	cursor:pointer
+}
+#save, #open, #home{
+	font-family: 'Noto Sans',Helvetica,Arial,sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px 5px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: transparent;
+    max-width: 100%;
+    margin: 10px 10px 10px 10px; 
+    text-transform: uppercase;
+    text-align: center;
+    white-space: normal;
+    color: black;
+    border: 2px solid black;
+    width: 15%;
+	cursor:pointer
+}
+.paddingbottom10 {
+    padding-bottom: 10px;
+}
+tr.cstm-button h4{
+	/* float: left; */
+	width: 100%;
+	/* margin-left: 15px; */
+}
+.block{
+	text-align: center;
+}
+label{
+	width: 200px;
+	/* text-align: right; */
+}
+.disply-none{
+	display:none;
+}
+.display-block{
+	display:block;
+}
+/* #maintable tr td:first-child{
+	width :30%;
+} */
+.left-wrapper,
+.left-wrapper1 {
+    float: left; 
+  
+}
+.right-wrapper {
+    float: left;
+   padding-left: 20px;
+}
+.leftform {
+    float: left;
+    width: 50%;
+}
+.rightform {
+    float: left;
+    width: 50%;
+}
+.cstmheading{
+	float: left;
+    width: 60%;
+}
+.cstmheading h3{
+	float: left;
+    width: 50%;
+}
+.downloaddiv {
+    float: left;
+    width: 50%;
+}
+.whitbg {
+    width: 99.7%;
+    background: #fff;
+    border-radius: 0px;
+    padding: 3px;
+    border: none;
+}
+.cstm-movable-btn {
+    position: fixed;
+    background: #000;
+    padding: 10px;
+	right: 30px;
+    top: 75px;
+}
+.cstm-movable-btn a{
+	color: #fff;
+	font-size: 22px;
+}
+#id_template{
+	display:none;
+}
+
+form#saveform select, form#openform select {
+    float: left;
+    width: 60%;
+}
+form#saveform label, form#openform label  {
+    float: left;
+    width: 30%;
+	margin: 10px 0;
+}
+#saveform input[type=text] {
+	width: 60%;
+}
+a#downbtn {
+    float: right;
+	padding: 10px;
+	color: #fff;
+}
+a#upbtn {
+    float: left;
+	padding: 10px;
+	color: #fff;
+}
+
+.sidebar_parent {
+    position: absolute;
+
+    transition: all 0.5s linear;
+    left: 0;
+}
+
+.sidebar_parent.move {
+    left: -710px;
+}
+
+#toggle-btn {
+    position: absolute;
+    right: -8%;
+    transform: rotate(90deg);
+    top: 2%;
+}
+#accordionÃ‚Â h3Ã‚Â ,
+#accordion1Ã‚Â h3,
+#accordion2 h3
+#accordion3 h3
+#accordion4 h3
+#accordion5 h3{
+margin:Ã‚Â 0Ã‚Â 0Ã‚Â 6px;
+border:Ã‚Â 1pxÃ‚Â solidÃ‚Â #eee;
+padding:Ã‚Â 15px;
+}
+
+.posrel {
+    position: relative;
+    padding-top: 30px;
+
+}
+.remove-btn {
+    position: absolute;
+    right: 5px;
+    top: -7px;
+    z-index: 11;
+    font-size: 30px;
+    text-decoration: none;
+}
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    color: white;
+    float: left;
+    width: 50%;
+    /* background-color: rgba(155, 160, 183, 0.41); */
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    float: right;
+    width: 50%;
+    /* color: white; */
+    /* border-left: 5px solid; */
+    /* border-color: black; */
+    /* background-color: rgba(155, 160, 183, 0.41); */
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Split the screen in horizontalhalf */
+.split2 {
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .top {
+    top: 0;
+    color: white;
+    background-color: rgba(114, 120, 150, 0.48);
+  }
+  
+  /* Control the right side */
+  .bottom {
+    bottom: 0;
+    color: white;
+    border-top: 5px solid;
+    border-color: black;
+    background-color: rgba(114, 120, 150, 0.48);
+    top: inherit;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .cent {
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(50%, -50%);
+    text-align: center;
+  }
+
+  
+
+.padd-left{padding-left:750px;}
+@media (min-width: 768px){
+	.modal-dialog {
+		width: 900px;
+	}
+}
+@media (min-width: 1200px){
+	.container {
+		width: 95%;
+	}
+}
+
+@media (max-width: 1200px){
+	table.devicewidth, td.devicewidth {
+		width: 100% !important;
+		min-width: 450px !important;
+	}
+	.container {
+		width: 100% !important;
+		max-width: 480px !important;
+	}
+	.cstmheading {
+		float: left;
+		width: 100%;
+	}
+	#download{
+		width: 50%;
+	}
+	#home {
+		width: 28%;
+	}
+}
+@media screen and (max-width: 479px) and (min-width: 320px) {
+    .left-wrapper
+    img {
+		width: 320px;
+	}
+	tr.cstm-button h4{
+		width: 75%;
+		font-size: 40px;
+	}
+	.container {
+		width: 100% !important;
+		max-width: 320px !important;
+		padding: 0px;
+	}
+}
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+	.container {
+		width: 100% !important;
+		max-width: 480px !important;
+	}
+	.cstmheading {
+		float: left;
+		width: 100%;
+	}
+	#download{
+		width: 50%;
+	}
+	#home {
+		width: 28%;
+	}
+}
+/* ::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+    background: transparent !important;
+  }
+  ::-webkit-scrollbar-thumb:horizontal,
+  ::-webkit-scrollbar-thumb:vertical {
+    background: rgba(180,180,180,.2) !important;
+    border-radius: 2px !important;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent !important;
+  }
+  #pdf1 {
+    left: 0;
+    color: #d3ba85;
+  }
+  #pdf2 { 
+    right: 0;
+    color: #a6cabf;  
+  }
+
+  iframe { 
+    position: absolute;
+    top: 8rem;
+    bottom: 0;
+    width: calc(50%);
+    white-space: pre;
+    font: 16px/1.5 monospace;
+    padding: 10px;
+    border: #292929 solid 1px;
+  } */
+
+
+  iframe {
+    overflow: scroll;
+    float: left;
+    text-align: justify;
+}
+#leftembed {
+    height : 300px;
+    width: 200px;
+    display: inline-block;
+}
+#rightembed {
+    height : 600px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 50px;
+}

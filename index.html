@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PDF Audit Tool</title>
+  
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./All_files/style.css">
+
+</head>
+
+<body style="height: auto; min-height:5000px; overflow: hidden;">
+  <div class="left" style=" width:50%; float: left;    padding: 15px 0 0;">
+      
+<p>
+      <!-- <video id="video_player1" width="100%" controls="">
+      </video> -->
+      <iframe id="pdf1" width="100%" src="../../dummy.pdf" style="height:100vh;"></iframe>
+
+
+      </p>
+  </div>
+  <div class="right" style=" width:50%; float: right;height:100vh;"> 
+        <p>
+      <iframe id="pdf2" width="100%" src="../../dummy.pdf" style="height:100vh;"></iframe>
+
+<!-- 
+        <video id="video_player" width="100%" controls="">
+        </video> -->
+        </p>
+      
+    </div>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      </div>
+      <div class="modal-body">
+        <div class="mbr-section mbr-section-nopadding">
+    <div class="container" style="width: 65%;">
+        <div class="row">
+            
+               
+                    <input type="hidden" value="wXFLn4rD8xMYZRMTOQ/Wz9RCGOyWRbSUEM+Eix+zH2aD4FekyGmuuOo1lQ5gvpEyxJLErQDvKFwJL03OqACbOFG5vJB5HzPAklivx9XDhDTU++mSd7hQV5a++uCDXrA+" data-form-email="true" class="hidden animated">
+                    <div class="mbr-subscribe mbr-subscribe-dark input-group"style="padding-top: 50px">
+
+                        <span class="input-group-btn"><button type="submit" class="btn btn-danger">
+                            <input class="btn-text" id="pdf1_file" type="file">
+                        <!-- <span class="btn-text">Choose</span><i class="btn-loader"></i></button></span> -->
+                    </div>
+        </div>
+
+
+
+        <div class="row">
+                  <input type="hidden" value="wXFLn4rD8xMYZRMTOQ/Wz9RCGOyWRbSUEM+Eix+zH2aD4FekyGmuuOo1lQ5gvpEyxJLErQDvKFwJL03OqACbOFG5vJB5HzPAklivx9XDhDTU++mSd7hQV5a++uCDXrA+" data-form-email="true" class="hidden animated">
+                    <div class="mbr-subscribe mbr-subscribe-dark input-group"style="padding-top: 25px">
+                        
+                        <span class="input-group-btn"><button type="submit" class="btn btn-danger">
+                            <input class="btn-text" id="pdf2_file" type="file">
+                          <!-- <span class="btn-text">Choose</span><i class="btn-loader"></i></button></span> -->
+                    </div>
+              
+        </div>
+   
+    </div>
+
+
+    
+<div class="row2"><b>
+        <!-- <input id="Landscape" type="radio" name="Type" value="Type1"> Landscape Mode -->
+     <!--  -->
+       <!-- <input id="portrait" type="radio" name="Type" value="Type2"> Portrait Mode  -->
+
+    </b> 
+<br>
+<br>
+<form action="#" id="myForm" style="display: table;margin: 0 auto;" >
+    <p> <span class="input-group-btn"><button type="button" id="pdfbutton" class="btn btn-danger"><span class="btn-text">View</span><i class="btn-loader"></i></button></span></p>
+</form>
+</div>
+
+
+</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    <!-- jQuery library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="./demo.js"></script>
+
+  <script>
+    // Selecting the iframe element
+    var iframe = document.getElementById("myIframe");
+    
+    // Adjusting the iframe height onload event
+    iframe.onload = function(){
+        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
+    </script>
+</body>
+</html>
+
+
+
+
+   
